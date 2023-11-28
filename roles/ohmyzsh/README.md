@@ -53,7 +53,8 @@ OS-Agnostic:
 | `ohmyzsh_install_dir` | Directory oh-my-zsh to be installed in | `/usr/local/share/ohmyzsh` |
 | `ohmyzsh_custom_aliases` | File containing custom shell config | `$HOME/.zsh/aliases.local` |
 | `ohmyzsh_powerlevel10k` | Whether to install powerlevel10k theme or not | `yes` |
-| `ohmyzsh_powerlevel9k` | Whether to install powerlevel9k theme or not | `yes` |
+| `ohmyzsh_powerlevel10k_import_config` | Import the local config of the current user | `no` |
+| `ohmyzsh_powerlevel9k` | Whether to install powerlevel9k theme or not | `no` |
 | `ohmyzsh_powerlevel9k_cfg` | Path to powerlevel9k config file | `${HOME}/.zsh/omz_powerlevel9k.cfg` |
 | `ohmyzsh_users[]` | List of users to install zsh/oh-my-zsh for | see [`defaults/main.yml`](defaults/main.yml) |
 | `ohmyzsh_default_theme` | Default theme to be configured for users which do not have theme specified | `robbyrussell` |
