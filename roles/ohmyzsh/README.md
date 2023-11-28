@@ -57,7 +57,7 @@ OS-Agnostic:
 | `ohmyzsh_powerlevel9k` | Whether to install powerlevel9k theme or not | `no` |
 | `ohmyzsh_powerlevel9k_cfg` | Path to powerlevel9k config file | `${HOME}/.zsh/omz_powerlevel9k.cfg` |
 | `ohmyzsh_users[]` | List of users to install zsh/oh-my-zsh for | see [`defaults/main.yml`](defaults/main.yml) |
-| `ohmyzsh_default_theme` | Default theme to be configured for users which do not have theme specified | `robbyrussell` |
+| `ohmyzsh_default_theme` | Default theme to be configured for users which do not have theme specified | `robbyrussell` except for *ansible_user_id* user and root then `powerlevel10k/powerlevel10k` |
 | `ohmyzsh_default_plugins[]` | The list of plugins for oh-my-zhs to be installed | see [`defaults/main.yml`](defaults/main.yml) |
 | `ohmyzsh_custom_plugins[]` | The list of custom plugins for oh-my-zhs to be installed | see [`defaults/main.yml`](defaults/main.yml) |
 
