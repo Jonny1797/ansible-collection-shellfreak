@@ -3,6 +3,7 @@ ohmyzsh_install_dir: /usr/local/share/ohmyzsh   # On MacOS /usr/ is read-only, t
                                                 # specify ohmyzsh_cache_dir var for correct work of completions.
 ohmyzsh_cache_dir: ${HOME}/.ohmyzsh_cache       # This dir has to be writable. Mainly for macos, as /usr/ is read-only
 ohmyzsh_custom_aliases: ${HOME}/.zsh/aliases.local
+ohmyzsh_write_default_aliases: false
 
 # If only p10k is set to true, then p9k will not be installed and configured.
 # It is not recommended to set p9k only to true, because it's slow).
